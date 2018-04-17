@@ -12,7 +12,7 @@
         <div class="overlay">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 pull-right-sm">
                         <div class="item-right">
                             <h3>Become the next<br> world class Developer</h3>
                             <div class="item-content">
@@ -20,11 +20,13 @@
                                     Are you Ready?
                                     <input type="button" id="apply" class="btn btn-success" name="apply" value="Apply Now">   
                                 </p>
-                                <p>your time is ticking <?php echo date("h:ia") ?><span> HNG4.0</span></p>
+                                <p>your time is ticking <br>
+                                    <?php echo date('l jS \of F Y h:i A')?><br>
+                                    <span>HNG4.0</span></p>
                             </div>                            
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 pull-left-sm">
                         <div>
                             <img class="circle" src="images/coder.jpg">
                         </div>                    
